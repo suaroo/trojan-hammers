@@ -107,9 +107,65 @@ p{
     margin: 70px 0;
 }
 .icon{
-    height: 100px;
-    width: 100px;
-    background: #000;
+    height: 120px;
+    width: 120px;
+    
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    border: #fff solid 1px;
+}
+.badges{
+    width: 130px;
+    text-align: center;
+}
+.badges>p{
+    font-size: small;
+}
+.badge-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-now{
+    margin-top: 40px;
+    background: radial-gradient(#d3d9d4,#748d92);
+    padding: 4rem;
+}
+.shop-txt{
+    width: 250px;
+    text-align: center;
+}
+.shop-txt>h3{
+    color: #2e3944;
+}
+.shop-row1>img{
+    border-radius: 1rem;
+}
+.shop-txt>button{
+    display: inline-block;
+    background:#748d92; 
+    color: #2e3944;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:0.7s background;
+    border: none;
+}
+.shop-txt>button:hover{
+    background: #2e3944;
+    color:#748d92;
+}
+.shop-row1{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-row2>img{
+    border-radius: 1rem;
+}
+.shop-row2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
 }
 .col3{
     flex-basis: 30%;
