@@ -287,6 +287,59 @@ small{
 .col5 img:hover{
     filter: grayscale(0);
 }
+.container-x{
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+.newsletter{ 
+    background: #d3d9d4;
+    height: 20rem;
+}
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    padding:8rem 0 0 0;
+}
+input[type=email]{
+    padding: 15px 200px 15px 40px;
+    border-radius: 0;
+    border: none;
+}
+input[type=email]:focus{
+    outline: none;
+}
+.btn-news{
+    padding: 13px 20px 14px 20px;
+    margin-left: -5px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    background:#2e3944; 
+    color: #d3d9d4;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.btn-news:hover{
+    background-color: #748d92;
+    color: #212a31;
+}
+.go-up-btn{
+    width:60px ;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10rem;
+    left: 35rem;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    background: #ffffff;
+    color:#212a31 ;
+    align-content: center;
+    border: 1px solid black;
+}
 .footer{
     background: #212a31;
     color: #d3d4d3;
